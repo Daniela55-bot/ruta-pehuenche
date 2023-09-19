@@ -1,0 +1,85 @@
+.footer {
+    width: 150%;
+    height: 200px;
+    background-color: #121619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+
+  }
+
+  .col{
+    padding: 15px 20px;
+    margin-top: 50px;
+    width: calc(38% - 200px);
+    padding-left: 100px;
+    
+  }
+
+
+  .card{
+    width:250px;
+    height: 250px; 
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 1px; /* Espacio entre las tarjetas */
+    background-color:#89e9ed;
+   
+  }
+
+
+  .card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0; /* Bordes redondeados solo en la parte superior */
+  }
+
+  .card-body {
+    padding: 15px;
+    
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    
+  }
+
+  .card-text {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .btn {
+    padding: 12px 50px;
+    background-color: #ffc32b;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    padding-left: 25px;
+   
+    
+    
+  }
+  
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: white;
+  }
+  .tituloo{
+    padding: 15px 150px;
+      font-family: Arial black;
+      padding-left: 100px;
+  }
